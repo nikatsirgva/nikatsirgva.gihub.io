@@ -235,14 +235,14 @@ h1 {
     color: white;
     text-align: center;
     margin-bottom: 1px !important;
-    background-color:  #ff006e;
+    background-color: #ff006e;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-style: italic;
 }
 
-.navbar-light.bg-light{
+.navbar-light.bg-light {
     background-color: #f48c06 !important;
 }
 
@@ -250,7 +250,7 @@ h1 {
 @media(min-width:900px) {
     .panel {
         flex-direction: row;
-        width: 100%;
+        max-width: none;
     }
 
     .pricing-plan {
@@ -265,3 +265,9 @@ h1 {
     .pricing-plan:last-child {
         border-right: none;
     }
+
+    .pricing-img{
+        width: 300px;
+        height: 200px;
+    }
+}
